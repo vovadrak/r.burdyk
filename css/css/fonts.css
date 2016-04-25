@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.woff") format("woff"), url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.ttf") format("truetype"); }
+@font-face {
+  font-family: "HelveticaThin";
+  font-style: normal;
+  font-weight: italic;
+  src: url("../fonts/HelveticaNeueCyrThinItalic/HelveticaNeueCyr-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyrThinItalic/HelveticaNeueCyr-ThinItalic.woff") format("woff"), url("../fonts/HelveticaNeueCyrThinItalic/HelveticaNeueCyr-ThinItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Cent";
+  font-style: normal;
+  font-weight: italic;
+  src: url("../fonts/CentSchbkCyrill/CentSchbkCyrill-BT-Roman.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

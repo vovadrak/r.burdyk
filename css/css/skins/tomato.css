@@ -1,0 +1,23 @@
+body {
+  color: #fff;
+  letter-spacing: 1px; }
+
+a {
+  color: #fff; }
+
+p,
+h1,
+h2,
+h3 {
+  color: #fff; }
+
+.color_element {
+  color: #fff; }
+
+.color_bg {
+  background-color: #fff; }
+
+.color_border {
+  border-color: #fff; }
+
+/*# sourceMappingURL=tomato.css.map */

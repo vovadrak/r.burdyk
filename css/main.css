@@ -1,0 +1,219 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #fff; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #fff; }
+
+.hidden {
+  display: none; }
+
+section,
+.main_head {
+  position: relative;
+  min-height: 300px; }
+
+.top_mnu {
+  width: 16px;
+  position: fixed;
+  z-index: 1000;
+  right: 2%;
+  top: 30%; }
+  .top_mnu ul {
+    padding-left: 0; }
+  .top_mnu li {
+    list-style: none; }
+
+.top_wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .top_wrapper .top_descr {
+    display: table-row; }
+    .top_wrapper .top_descr .top_centered {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+    .top_wrapper .top_descr .top_left {
+      display: table-cell;
+      text-align: left;
+      vertical-align: middle; }
+  .top_wrapper .top_text,
+  .top_wrapper .top_exit {
+    display: inline-block; }
+    .top_wrapper .top_text h1,
+    .top_wrapper .top_exit h1 {
+      font-size: 31px;
+      opacity: 0.7;
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: normal; }
+      .top_wrapper .top_text h1 span,
+      .top_wrapper .top_exit h1 span {
+        font-family: Cent;
+        border: 3px solid #000000;
+        padding: 4px 12px;
+        margin-right: 5px; }
+
+.mouse {
+  height: 41px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  animation: pulse 2s ease infinite; }
+
+.social {
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+  .social ul {
+    margin: 5px;
+    padding-left: 0; }
+  .social li {
+    display: inline-block;
+    margin-right: 12px; }
+
+.about_container {
+  background: url("../images/bg2.jpg");
+  background-size: cover; }
+
+.about_me {
+  width: 29%;
+  margin: 0 10% 0 auto; }
+  .about_me h2 {
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    font-weight: normal; }
+  .about_me p {
+    font-size: 19px;
+    opacity: 0.7;
+    margin: 0; }
+
+.exit_container {
+  height: 310px; }
+  .exit_container p {
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 2.7;
+    text-transform: uppercase;
+    margin: 0 15% 0 15%; }
+
+.gallery_container {
+  background: url("../images/bg4-1.png");
+  background-size: contain;
+  padding: 0 5% 0 0; }
+  .gallery_container h1 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin: 0;
+    padding: 40px 0 30px; }
+
+.fa {
+  opacity: 0.7; }
+
+.fa:hover {
+  opacity: 1; }
+
+.footer_container {
+  background: url("../images/bg5.jpg");
+  background-size: cover;
+  padding-top: 100px; }
+  .footer_container h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 90px;
+    font-weight: normal;
+    opacity: 0.7; }
+
+.footer_blocks {
+  width: 80%;
+  margin: 0 auto 0 auto; }
+
+form {
+  float: left; }
+  form li {
+    list-style-type: none; }
+  form li:before {
+    content: "| ";
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.3; }
+  form li:last-child:before {
+    content: ""; }
+
+.form-text,
+.form-email,
+.form-textarea,
+.form-submit {
+  width: 150px;
+  margin-bottom: 25px;
+  opacity: 0.3;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0);
+  outline: none;
+  color: #fff; }
+
+.form-textarea {
+  width: 260px;
+  resize: none; }
+
+.form-submit {
+  width: 160px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 50px;
+  opacity: 1; }
+
+.form-submit:hover {
+  color: #7c7064;
+  border-bottom: 1px solid #7c7064; }
+
+.footer_contacts {
+  float: right;
+  margin: 0 5% 0 auto; }
+  .footer_contacts p {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center; }
+    .footer_contacts p span {
+      color: #7c7064;
+      text-transform: lowercase;
+      padding-left: 12px; }
+
+.p-style {
+  margin-top: 60px; }
+
+.social-footer ul {
+  text-align: center;
+  padding: 0; }
+.social-footer li {
+  display: inline-block;
+  margin-right: 12px; }
+
+.footer-the-end {
+  width: 100%;
+  position: absolute;
+  bottom: 10px; }
+  .footer-the-end p {
+    font-size: 11px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    text-align: center; }
