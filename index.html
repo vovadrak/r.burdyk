@@ -13,8 +13,6 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/sprites/sprites.css" />
-	<link rel="stylesheet" href="libs/jgallery/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/jgallery/css/jgallery.css" />
 </head>
 <body>
 	
@@ -81,28 +79,69 @@
 	</section>
 	
 	<section id="galleries" class="gallery_container">
-		<h1 class="wow bounceInUp">portpholio</h1>
-		<div id="gallery">
-		<div class="album" data-jgallery-album-title="All">
-		<div class="album" data-jgallery-album-title="City">
-			<a href="images/gallery/image1.jpg"><img src="images/gallery/image1.jpg" alt="Photo 1" /></a>
+	
+		<div class="gallery_block_1">
+			<h4 class="wow bounceInUp">portpholio</h4>
+			<div class="gallery_big_img">
+				<figure id="fullimagecontainer">
+				</figure>
+			</div>
 		</div>
-		<div class="album" data-jgallery-album-title="People">
-			<a href="images/gallery/gallery1.jpg"><img src="images/gallery/gallery1.jpg" alt="Photo 2" /></a>
-			<a href="images/gallery/image4.jpg"><img src="images/gallery/image4.jpg" alt="Photo 3" />
-			</a>
-			<a href="images/gallery/image2.jpg"><img src="images/gallery/image2.jpg" alt="Photo 4" /></a>
+		
+		<div class="gallery_block_2">
+			<div class="filter_div controls">
+				<ul class="filter-control">
+					<li class="filter active" data-filter="all">All</li>
+					<li class="filter" data-filter=".city">city</li>
+					<li class="filter" data-filter=".people">people</li>
+					<li class="filter" data-filter=".feast">feast</li>
+					<li class="filter" data-filter=".nature">nature</li>
+				</ul>
+			</div>
+			
+			<div class="gallery-filter">
+				<div id="javascript-gallery" tabindex="0">
+					<div id="portfolio_grid">
+						<div class="mix gallery_img people">
+							<a href="images/gallery/gallery1.jpg">
+							<img src="images/gallery/gallery1.jpg" alt="">
+							</a>
+						</div>
+							<div class="mix gallery_img city">
+							<a href="images/gallery/image1.jpg">
+							<img src="images/gallery/image1.jpg" alt="">
+							</a>
+						</div>
+							<div class="mix gallery_img people">
+							<a href="images/gallery/image2.jpg">
+							<img src="images/gallery/image2.jpg" alt="">
+							</a>
+						</div>
+							<div class="mix gallery_img feast">
+							<a href="images/gallery/image3.jpg">
+							<img src="images/gallery/image3.jpg" alt="">
+							</a>
+						</div>
+							<div class="mix gallery_img people">
+							<a href="images/gallery/image4.jpg">
+							<img src="images/gallery/image4.jpg" alt="">
+							</a>
+						</div>
+							<div class="mix gallery_img nature feast">
+							<a href="images/gallery/image5.jpg">
+							<img src="images/gallery/image5.jpg" alt="">
+							</a>
+						</div>
+							<div class="mix gallery_img feast">
+							<a href="images/gallery/image6.jpg">
+							<img src="images/gallery/image6.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="album" data-jgallery-album-title="Feasts">
-			<a href="images/gallery/image3.jpg"><img src="images/gallery/image3.jpg" alt="Photo 5" /></a>
-			</a>
-			<a href="images/gallery/image6.jpg"><img src="images/gallery/image6.jpg" alt="Photo 4" /></a>
-		</div>
-		<div class="album" data-jgallery-album-title="Nature">
-			<a href="images/gallery/image5.jpg"><img src="images/gallery/image5.jpg" alt="Photo 6" /></a>
-		</div>
-		</div>
-		</div>
+		
 	</section>
 
 	<section id="contacts" class="footer_container">
@@ -115,7 +154,7 @@
                         <ul>
                             <li><input class="form-text" type="text" placeholder="ENTER NAME" required></li>
                             <li><input class="form-email" type="text" placeholder="ENTER EMAIL" required></li>
-                            <li><input class="form-textarea" type="text" placeholder="WRITE A MASSEGE" required></li>
+                            <li><input class="form-textarea" type="text" placeholder="WRITE A MESSAGE" required></li>
                             <li><input class="form-submit" type="submit" value="Leave application"></li>
                         </ul>
                 	</form>
@@ -149,9 +188,7 @@
 	<script src="libs/parallax/parallax.min.js"></script>
 	<script src="libs/wow/wow.js"></script>
 	<script>new WOW().init();</script>
-	<script src="libs/jgallery/js/jgallery.js"></script>
-	<script src="libs/jgallery/js/touchswipe.js"></script>
-	<script src="libs/jgallery/js/tinycolor-0.9.16.min.js"></script>
+	<script src="libs/MixItUp/MixItUp.min.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

@@ -1,13 +1,8 @@
 
 $(document).ready(function() {
 	
-$( function() {
-    $( '#gallery' ).jGallery();
-} );
-	
-$(".categories li").click(function() {
-	$(".categories li").removeClass("active");
-	$(this).addClass("active");
+	$(function(){
+    $('#portfolio_grid').mixItUp();
 });
 
 var top_show = 150;
@@ -24,16 +19,7 @@ $('#top').click(function () {
 });
 });	
 
-
-function heightDetect() {
-	$(".main_head, .about_container, .footer_container").css("height", $(window).height());
-	};
-	heightDetect();
-	$(window).resize(function() {
-	heightDetect();
-	});
 });
-
 
 $('a[href*="#"]:not([href="#"])').click(function() {
 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -49,3 +35,32 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && lo
 
 	
 });
+
+// Onclick img
+
+function handler(e) {
+e.preventDefault();
+largeimage.setAttribute("src", this.getAttribute("href"));
+largeimage.setAttribute("alt", this.querySelector("img").getAttribute("alt"));
+largeimage.animate([
+  { opacity: '0'},
+  { opacity: '1'}
+], {
+  duration: 500
+});
+}
+
+var jgallery = document.getElementById("javascript-gallery"),
+largeimagecontainer = document.getElementById("fullimagecontainer"),
+links = jgallery.getElementsByTagName('a'),
+largeimage = document.createElement("img");
+
+largeimage.setAttribute("id", "fullimage");
+largeimagecontainer.appendChild(largeimage);
+
+for (var i=0; i<links.length; i++) {
+links[i].onclick = handler;
+}
+
+links[0].focus();
+links[0].click();
