@@ -1,7 +1,7 @@
 body {
   font-family: "Helvetica", sans-serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 2vh;
   min-width: 320px;
   position: relative;
   line-height: 1.42857;
@@ -54,7 +54,7 @@ section,
     display: inline-block; }
     .top_wrapper .top_text h1,
     .top_wrapper .top_exit h1 {
-      font-size: 31px;
+      font-size: 5vh;
       color: rgba(255, 255, 255, 0.7);
       text-transform: uppercase;
       margin: 0;
@@ -94,13 +94,13 @@ section,
   margin: 0 10% 0 auto; }
   .about_me h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 4vh;
     opacity: 0.7;
     text-transform: uppercase;
     margin-bottom: 55px;
     font-weight: normal; }
   .about_me p {
-    font-size: 19px;
+    font-size: 3vh;
     opacity: 0.7;
     margin: 0; }
 
@@ -108,7 +108,7 @@ section,
   height: 331px;
   min-height: 331px; }
   .exit_container p {
-    font-size: 18px;
+    font-size: 3vh;
     opacity: 0.7;
     line-height: 2.7;
     text-transform: uppercase;
@@ -121,7 +121,7 @@ section,
   .footer_container h3 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 4vh;
     margin-bottom: 90px;
     font-weight: normal;
     opacity: 0.7; }
@@ -136,7 +136,7 @@ form {
     list-style-type: none; }
   form li:before {
     content: "| ";
-    font-size: 14px;
+    font-size: 2vh;
     color: #ffffff;
     opacity: 0.3; }
   form li:last-child:before {
@@ -175,7 +175,7 @@ form {
   float: right;
   margin: 0 5% 0 auto; }
   .footer_contacts p {
-    font-size: 18px;
+    font-size: 3vh;
     text-transform: uppercase;
     text-align: center; }
     .footer_contacts p span {
@@ -198,7 +198,7 @@ form {
   position: absolute;
   bottom: 10px; }
   .footer-the-end p {
-    font-size: 11px;
+    font-size: 2vh;
     opacity: 0.5;
     text-transform: uppercase;
     text-align: center; }
@@ -212,7 +212,7 @@ form {
   min-height: 642px; }
   .gallery_block_1 h4 {
     text-align: center;
-    font-size: 24px;
+    font-size: 3vh;
     text-transform: uppercase;
     opacity: 0.7;
     margin: 0;
@@ -232,7 +232,7 @@ form {
 
 .filter-control {
   text-align: left;
-  font-size: 14px;
+  font-size: 2vh;
   text-transform: uppercase;
   opacity: 0.7;
   margin: 0;
