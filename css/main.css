@@ -1,4 +1,27 @@
 body {
+  color: #fff;
+  letter-spacing: 1px; }
+
+a {
+  color: #fff; }
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: #fff; }
+
+.color_element {
+  color: #fff; }
+
+.color_bg {
+  background-color: #fff; }
+
+.color_border {
+  border-color: #fff; }
+
+body {
   font-family: "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 2vh;
@@ -286,3 +309,71 @@ div#javascript-gallery a {
 
 .clear {
   clear: both; }
+
+.icons {
+  display: block;
+  opacity: 0.5; }
+  .icons:hover {
+    opacity: 1; }
+
+.home_icon {
+  width: 15px;
+  height: 16px;
+  background: url("../images/icons/home.png") no-repeat; }
+
+.about_icon {
+  width: 15px;
+  height: 16px;
+  background: url("../images/icons/about.png") no-repeat; }
+
+.gallery_icon {
+  width: 15px;
+  height: 16px;
+  background: url("../images/icons/gallery.png") no-repeat; }
+
+.contacts_icon {
+  width: 15px;
+  height: 21px;
+  background: url("../images/icons/contacts.png") no-repeat; }
+
+.polosa_icon {
+  width: 2px;
+  height: 36px;
+  background: url("../images/icons/polosa.png") no-repeat;
+  margin: 5px auto; }
+
+.top_icon {
+  width: 22px;
+  height: 12px;
+  background: url("../images/icons/top.png") no-repeat;
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 30px; }
+
+.mouse_icon {
+  width: 25px;
+  height: 41px;
+  background: url("../images/icons/mouse.png") no-repeat; }
+
+.fb_icon {
+  width: 11px;
+  height: 25px;
+  background: url("../images/icons/fb.png") no-repeat; }
+
+.youtube_icon {
+  width: 24px;
+  height: 25px;
+  background: url("../images/icons/youtube.png") no-repeat; }
+
+.instagram_icon {
+  width: 24px;
+  height: 25px;
+  background: url("../images/icons/insta.png") no-repeat; }
+
+.exit_icon {
+  width: 23px;
+  height: 22px;
+  background: url("../images/icons/exit.png") no-repeat;
+  display: inline-block;
+  margin-left: 30px; }
