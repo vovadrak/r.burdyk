@@ -26,6 +26,12 @@
 	.footer_container h3 {
 		font-size: 1.5em;
 	}
+	.gallery_block_1 {
+		display: none;
+	}
+	.gallery_block_2 {
+		width: 100%;
+	}
 }
 
 /* Small Devices, Tablets */

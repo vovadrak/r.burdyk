@@ -260,7 +260,7 @@ form {
   text-transform: uppercase;
   opacity: 0.7;
   margin: 0;
-  padding: 77px 7% 70px; }
+  padding: 77px 7% 65px; }
   .filter-control li {
     display: inline-block;
     color: #fff;
@@ -273,8 +273,9 @@ form {
     opacity: 1; }
 
 div#javascript-gallery {
-  width: 90%;
+  width: 96%;
   margin-left: 2%;
+  margin-right: 2%;
   height: 387px;
   overflow: hidden;
   outline: none; }
