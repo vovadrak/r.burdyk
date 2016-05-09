@@ -154,7 +154,8 @@ section,
   margin: 0 auto 0 auto; }
 
 form {
-  float: left; }
+  float: left;
+  font-size: 2vh; }
   form li {
     list-style-type: none; }
   form li:before {
@@ -169,7 +170,7 @@ form {
 .form-email,
 .form-textarea,
 .form-submit {
-  width: 150px;
+  width: 21vh;
   margin-bottom: 25px;
   opacity: 0.3;
   border: none;
@@ -179,11 +180,11 @@ form {
   color: #fff; }
 
 .form-textarea {
-  width: 260px;
+  width: 40vh;
   resize: none; }
 
 .form-submit {
-  width: 160px;
+  width: 25vh;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
